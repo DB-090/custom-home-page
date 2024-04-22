@@ -11,12 +11,78 @@
     </head>
     <body>
 
+
+
+        <!-- WEATHER -->
+<section class="weather-widget">
+    <a class="weatherwidget-io" href="https://forecast7.com/uk/42d07n87d79/glenview/" data-label_1="GLENVIEW" data-font="Arial Black" data-icons="Climacons" data-theme="beige" data-basecolor="#f0ecdb" data-accent="rgba(27, 25, 34, 0.04)" data-highcolor="#f28585" data-lowcolor="#6ea4cb" data-suncolor="#e8ba12" data-mooncolor="#d1ce80" data-cloudcolor="#80bfde" data-cloudfill="#8cd4f6" data-raincolor="#6f7ce7" data-snowcolor="#837862" >GLENVIEW</a>
+    <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+</div>
+
+
+
+<div class="search-and-clock">
+        <!-- CLOCK (CHICAGO) -->
+<section class="clock chicago">
+    <iframe src="https://free.timeanddate.com/clock/i9c9nkke/n64/fs24/fcfb978f/tct/pct/ftb/tt0/tw1/tm1/td2/th2/ta1/tb4" frameborder="0" width="212" height="59" allowtransparency="true"></iframe>
+</section>
+        
+
+
+
         <!-- GOOGLE SEARCH -->
-<form action="https://google.com/search" method="get" target="_blank">
-    <input type="hidden" name="sitesearch" />
-    <input type="text" name="q" placeholder="search..." class="search-bar"/>
-    <input type="submit" value="GO" class="submit-button">
- </form>
+<section class="google-search-whole">
+        <form action="https://google.com/search" method="get" target="_parent">
+        <input type="hidden" name="sitesearch" />
+        <input type="text" name="q" placeholder="search..." class="search-bar"/>
+        <input type="submit" value="go" class="submit-button">
+    </form>
+</div>
+</div>
+
+
+         <!-- BOOKMARKS -->
+<section class="bookmarks">
+    <a href="https://mail.google.com" target="_blank">
+        <i class="fas fa-envelope"></i>
+    </a>
+    <i class="fas fa-sticky-note" onclick="showNote()"></i>
+    <i class="fas fa-calculator" onclick="showCalculator()"></i>
+</section>
+
+ 
+
+
+        <!-- CALCULATOR -->
+<script src="https://linangdata.com/calculatorEmbed/linangcalc.js"></script>
+<div style="width:50px;height:50px;background-image:url('https://linangdata.com/calculatorEmbed/icons/48x48.png')">
+    <iframe id="linangcalc" src="https://linangdata.com/calculatorEmbed/embeddable.html?placement=right" 
+    width="50" height="50" scrolling="auto" frameBorder="0" allowTransparency="true"
+    style="border:0;position:absolute;opacity:1.0;">
+    </iframe>
+</div>
+
+
+        <!-- Cryptocurrency Price Widget -->
+<script>!function(){var e=document.getElementsByTagName("script"),t=e[e.length-1],n=document.createElement("script");function r(){var e=crCryptocoinPriceWidget.init({base:"USD,EUR,CNY,GBP",items:"BTC,ETH,LTC,XMR,DASH",backgroundColor:"F3F1E2",streaming:"1",rounded:"1",boxShadow:"1",border:"1"});t.parentNode.insertBefore(e,t)}n.src="https://co-in.io/uk/widget/pricelist.js?items=BTC%2CETH%2CLTC%2CXMR%2CDASH",n.async=!0,n.readyState?n.onreadystatechange=function(){"loaded"!=n.readyState&&"complete"!=n.readyState||(n.onreadystatechange=null,r())}:n.onload=function(){r()},t.parentNode.insertBefore(n,null)}();</script>
+<a href="https://currencyrate.today/" rel="noopener" target="_blank">CurrencyRate.Today</a>
+
+
+
+
+
+
+
+
+        <!-- SUDOKU -->
+<IFRAME SRC="//widget.websudoku.com/?level=3" WIDTH="200" HEIGHT="260" SCROLLING="no" FRAMEBORDER="0"></IFRAME>
+
+
+
+
+
 
         <script src="myScripts.js" async defer></script>
     </body>

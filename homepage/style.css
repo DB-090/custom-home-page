@@ -1,28 +1,118 @@
+* {
+   margin: 0;
+   padding: 0;
+  }
+
+
+html, body
+{
+   background-color: #F2E4E1
+}
+
+
+/*
 /*
 =================================================
 SEARCH
 =================================================
 */
 form{
-    width:100%;
-    max-width:600px;
-    margin:0 auto;
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
+}
+input{
+   width:100%;
+   font-size:32px;
+   margin:5px 0;
+   border:none;
+   padding:10px;
+   outline:none;
+   display:inline-block;
+}
+.search-bar{
+   width:73%;
+   background-color: #F2F0E1;
+   display:inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.submit-button{
+   width:10%;
+   background:#afa55d;
+   color: #F2F0E1;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+.submit-button:hover {
+   background-color: #8b834b;
  }
- input{
-    width:100%;
-    font-size:32px;
-    margin:5px 0;
-    float:left;
-    border:none;
-    padding:10px;
-    outline:none;
+
+ .google-search-whole
+ {
+  margin: inherit, auto;
+
  }
- .search-bar{
-    width:85%;
- }
- .submit-button{
-    width:15%;
-    background:#000;
-    color:#FFF;
- }
- 
+
+/*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks a{
+   text-decoration: none;
+}
+.bookmarks{
+   padding:30px;
+   clear:both;
+}
+.bookmarks i{
+   font-size:42px;
+   margin:0 20px;
+   color:#000000;
+   transition:.15s;
+   vertical-align: top;
+}
+.bookmarks i:hover{
+   font-size:72px;
+   position:relative;
+}
+
+ /*
+=================================================
+WEATHER
+=================================================
+*/
+.weather-widget
+{
+   width: 100%;
+   margin: 0;
+   padding: 0px;
+   height: auto;
+   
+}
+
+
+
+
+
+ /*
+=================================================
+CLOCKS
+=================================================
+*/
+
+.clock
+{
+   
+}
+
+
+.search-and-clock
+{
+   border: black solid;
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
+}
