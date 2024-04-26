@@ -74,9 +74,11 @@ BOOKMARKS
 .bookmarks i{
    font-size:42px;
    margin:0 20px;
-   color:#000000;
+   color: #FB978F;
    transition:.15s;
    vertical-align: top;
+
+
 }
 .bookmarks i:hover{
    font-size:72px;
@@ -112,13 +114,22 @@ CLOCKS
    display: inline-block;
 }
 
-h1{
+.towns
+{
+   min-width: 470px;
+   max-width:480px;
+   margin:0 auto;
+}
+
+p{
    display: inline-block;
    margin-top: 130px;
    font-size: 60px;
    font-weight: bold;
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
+   color: #FB978F;
+  
 }
 
 .kiev
@@ -134,6 +145,23 @@ h1{
    max-width:480px;
    margin:0 auto;
   
-   
-   
 }
+
+ /*
+=================================================
+CRYPTO
+=================================================
+*/
+
+.crypto{
+  opacity: 0.5;
+  width: 50%;
+}
+
+.tradingview-widget-container,
+.crypto{
+   display: inline-block;
+   opacity: 0.5;
+   height: 300px;
+}
+
