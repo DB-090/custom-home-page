@@ -32,7 +32,7 @@ input{
 }
 .search-bar{
    margin-left: 1%;
-   width:77%;
+   width:75%;
    max-width: max-content;
    background-color: #F2F0E1;
    display:inline-block;
@@ -40,13 +40,14 @@ input{
    font-weight: bold;
 }
 .submit-button{
-   min-width:70px;
+   min-width:65px;
    max-width: 100px;
    width: auto;
-   background:#afa55d;
+   background:#bcb372;
    color: #F2F0E1;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
+   margin-left: 0%;
 }
 
 .submit-button:hover {
@@ -70,6 +71,7 @@ BOOKMARKS
 .bookmarks{
    padding:30px;
    clear:both;
+   text-align: center 
 }
 .bookmarks i{
    font-size:42px;
@@ -77,6 +79,7 @@ BOOKMARKS
    color: #FB978F;
    transition:.15s;
    vertical-align: top;
+   text-align: center;
 
 
 }
@@ -108,10 +111,17 @@ WEATHER
 CLOCKS
 =================================================
 */
-
+.vl {
+   border-left: 3px solid #FB978F;
+   text-align: center;
+   height:60px;
+   position:relative;
+   left: 2%;
+ } 
 .clock, .vl
 {
    display: inline-block;
+
 }
 
 .towns
@@ -135,7 +145,8 @@ p{
 .kiev
 {
    position: relative;
-   left: 8%;
+   left: 3%;
+   margin-right: 0%;
 }
 
 .search-and-clock
@@ -143,7 +154,7 @@ p{
 
    min-width: 470px;
    max-width:480px;
-   margin:0 auto;
+   margin:0px auto;
   
 }
 
@@ -163,5 +174,6 @@ CRYPTO
    display: inline-block;
    opacity: 0.5;
    height: 300px;
+   margin-top: 170px;
 }
 
